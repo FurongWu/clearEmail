@@ -156,7 +156,7 @@ if __name__ == "__main__":
         print("错误：请输入有效的日期号数（如1、15）")
     # 1. 替换为你的机器人Webhook和密钥 (从钉钉群机器人设置获取)
     WEBHOOK_URL = "https://oapi.dingtalk.com/robot/send?access_token=7f403cc1629208925fc451efb855dbd545fd360794c479b014ea6a4c94d70501"
-    SECRET = "SEC9c3ed34a5de7d2de46790c82d49de9143247b8f97cae9ec9143f673476d4a736" # 若未启用加签则设为None
+    SECRET = "None" # 若未启用加签则设为None
     #SECRET = "YOUR_SECRET"  # 若未启用加签则设为None
 
     
